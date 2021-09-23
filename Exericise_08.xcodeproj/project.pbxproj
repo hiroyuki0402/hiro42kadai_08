@@ -36,7 +36,7 @@
 		3B8A87F526F34AD300479DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BA1785526F8202C00358851 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		3BA1785E26F82C4300358851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Exericise_08/Base.lproj/first.storyboard; sourceTree = SOURCE_ROOT; };
-		3BA1786026F82C6100358851 /* second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = second.storyboard; sourceTree = SOURCE_ROOT; };
+		3BA1786026F82C6100358851 /* second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = second.storyboard; path = Exericise_08/View/Storyboard/second.storyboard; sourceTree = SOURCE_ROOT; };
 		3BA1786626F82F5800358851 /* Exericise_08Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exericise_08Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA1786826F82F5800358851 /* Exericise_08Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exericise_08Tests.swift; sourceTree = "<group>"; };
 		3BA1786A26F82F5800358851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

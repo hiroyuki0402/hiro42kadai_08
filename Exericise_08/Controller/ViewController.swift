@@ -24,3 +24,4 @@ class ViewController: UIViewController {
         sliderValLabel.text = String(sender.value)
     }
 }
+
