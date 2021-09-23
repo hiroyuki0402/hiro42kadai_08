@@ -10,7 +10,7 @@
         <!--Item-->
         <scene sceneID="V1f-UP-Pdx">
             <objects>
-                <viewController storyboardIdentifier="second" id="kRb-To-7IG" customClass="SliderViewController" customModule="Exericise_08" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="second" id="kRb-To-7IG" customClass="SecondViewController" customModule="Exericise_08" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VH6-Xh-aae">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="29" id="LUs-Xp-eLY"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="changeTheSliderValue:" destination="kRb-To-7IG" eventType="valueChanged" id="0Uw-Uz-Wdn"/>
+                                    <action selector="changeTheSliderValue:" destination="kRb-To-7IG" eventType="valueChanged" id="p0y-Nz-T17"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -47,8 +47,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="CRP-HS-xXw"/>
                     <connections>
-                        <outlet property="sliderOutlet" destination="MvF-tm-em6" id="PeU-mC-70G"/>
-                        <outlet property="sliderValLabel" destination="ex9-FS-QqS" id="vyP-zk-S6a"/>
+                        <outlet property="sliderOutlet" destination="MvF-tm-em6" id="kNo-PN-C86"/>
+                        <outlet property="sliderValLabel" destination="ex9-FS-QqS" id="mth-sO-q8y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbX-Uq-B83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
