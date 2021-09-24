@@ -6,13 +6,10 @@
 //
 
 import UIKit
-protocol Nameeee {
-    func name(value: Float)
-}
 
-class ValueConfigurar {
+class ValueDataStore {
     private init() { }
-    static let valueConfigurar = ValueConfigurar()
+    static let shared = ValueDataStore()
     private var val: Float = 0.0
     func getValue() -> Float {
         return val

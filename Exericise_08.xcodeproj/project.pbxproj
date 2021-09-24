@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B8A87F426F348F700479DD4 /* ValueConfigurar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A87F326F348F700479DD4 /* ValueConfigurar.swift */; };
+		3B8A87F426F348F700479DD4 /* ValueDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A87F326F348F700479DD4 /* ValueDataStore.swift */; };
 		3B8A87F626F34AD300479DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A87F526F34AD300479DD4 /* ViewController.swift */; };
 		3BA1785626F8202C00358851 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1785526F8202C00358851 /* Memo.swift */; };
 		3BA1785F26F82C4300358851 /* first.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1785D26F82C4300358851 /* first.storyboard */; };
@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B8A87F326F348F700479DD4 /* ValueConfigurar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueConfigurar.swift; sourceTree = "<group>"; };
+		3B8A87F326F348F700479DD4 /* ValueDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueDataStore.swift; sourceTree = "<group>"; };
 		3B8A87F526F34AD300479DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BA1785526F8202C00358851 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		3BA1785E26F82C4300358851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Exericise_08/Base.lproj/first.storyboard; sourceTree = SOURCE_ROOT; };
@@ -71,7 +71,7 @@
 		3BA1785926F82BAB00358851 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3B8A87F326F348F700479DD4 /* ValueConfigurar.swift */,
+				3B8A87F326F348F700479DD4 /* ValueDataStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8A87F426F348F700479DD4 /* ValueConfigurar.swift in Sources */,
+				3B8A87F426F348F700479DD4 /* ValueDataStore.swift in Sources */,
 				3B8A87F626F34AD300479DD4 /* ViewController.swift in Sources */,
 				3BE2616A26C3B74B00F785E1 /* AppDelegate.swift in Sources */,
 				3BE2616C26C3B74B00F785E1 /* SceneDelegate.swift in Sources */,

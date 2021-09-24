@@ -9,17 +9,17 @@ import UIKit
 
 class SecondViewController: UIViewController {
     @IBOutlet private var sliderValLabel: UILabel!
-    @IBOutlet private var sliderOutlet: UISlider!
+    @IBOutlet private var slider: UISlider!
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let value = ValueConfigurar.valueConfigurar.getValue()
-        sliderOutlet.value =  value
+        let value = ValueDataStore.shared.getValue()
+        slider.value = value
         sliderValLabel.text = String(value)
     }
 
     @IBAction private func changeTheSliderValue(_ sender: UISlider) {
-        ValueConfigurar.valueConfigurar.setValue(value: sender.value)
+        ValueDataStore.shared.setValue(value: sender.value)
         sliderValLabel.text = String(sender.value)
     }
 }
