@@ -10,7 +10,7 @@ import XCTest
 
 class Exericise08Tests: XCTestCase {
     func testSetValueAndGetValue() throws {
-        let shared = ValueConfigurar.valueConfigurar
+        let shared = ValueDataStore.shared
         let slider = UISlider()
         slider.maximumValue = 100.0
         slider.minimumValue = 0.0
@@ -19,7 +19,7 @@ class Exericise08Tests: XCTestCase {
         // Set
         shared.setValue(value: sliderVal)
         // Get
-        let get = ValueConfigurar.valueConfigurar.getValue()
+        let get = ValueDataStore.shared.getValue()
         XCTAssertEqual(get, "100.0")
     }
 }
